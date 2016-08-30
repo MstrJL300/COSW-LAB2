@@ -1,0 +1,36 @@
+<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+
+
+   <body ng-controller="View2Ctrl">
+        <div>
+            <fieldset>
+                <label for='title'>Id</label><input id='id' name='Id' type="text" ng-model= "id">
+                <label for='content'>nombre</label><input id='nombre' name='nombre' type="text" ng-model= "nombre">
+                <button ng-click='registrar()' class="btn btn-success">
+                  <span class="glyphicon glyphicon-plus">Crear
+                </button>
+        </div>
+         <table class="table">
+          <tr>
+            <th>Descripcion</th>
+            <th>Prioridad</th>
+          </tr>
+
+          <tr ng-repeat="e in Listado">
+            <td> {{ e.Descripcion }} </td>
+            <td> {{ e.Prioridad }} </td>
+            <td>
+              <button type="button" class="btn btn-warning"  ng-click="edit($index)">
+                Editar
+              </button>
+              <button type="button" class="btn btn-danger"  ng-click="processDelete($index)">
+                X
+              </button>
+          </tr>
+        </table>
+    </body>
+
