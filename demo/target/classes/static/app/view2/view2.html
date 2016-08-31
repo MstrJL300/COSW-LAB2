@@ -8,21 +8,39 @@
    <body ng-controller="View2Ctrl">
         <div>
             <fieldset>
-                <label for='title'>Id</label><input id='id' name='Id' type="text" ng-model= "id">
-                <label for='content'>nombre</label><input id='nombre' name='nombre' type="text" ng-model= "nombre">
+                <label for='title'>
+                    Id
+                </label>
+                <input id='id' name='Id' type="text" ng-model= "id">
+                
+                <label for='content'>
+                    nombre
+                </label>                
+                <input id='nombre' name='nombre' type="text" ng-model= "nombre">
+                
                 <button ng-click='registrar()' class="btn btn-success">
-                  <span class="glyphicon glyphicon-plus">Crear
+                  <span class="glyphicon glyphicon-plus">
+                  Crear
                 </button>
+                
         </div>
          <table class="table">
           <tr>
-            <th>Descripcion</th>
-            <th>Prioridad</th>
+            <th>
+                Descripcion
+            </th>
+            <th>
+                Prioridad
+            </th>
           </tr>
 
           <tr ng-repeat="e in Listado">
-            <td> {{ e.Descripcion }} </td>
-            <td> {{ e.Prioridad }} </td>
+            <td> 
+                {{ e.Descripcion }} 
+            </td>
+            <td> 
+                {{ e.Prioridad }} 
+            </td>
             <td>
               <button type="button" class="btn btn-warning"  ng-click="edit($index)">
                 Editar

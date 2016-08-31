@@ -13,14 +13,18 @@ angular.module('myApp.view2', ['ngRoute'])
 
     $scope.id=0;
     $scope.nombre="Nombre";
+    
     $scope.registrar=function(){
+        
         var newitem={"id":$scope.id,"nombre":$scope.nombre};
+        
         //var arr=[];
         //arr.push(newitem);
         //var obj = JSON.parse(newitem);
-        Items.save(newitem, function(){
-            console.info("Saved "+newitem);            
-        }
+        Items.save(
+            newitem, function(){
+                console.info("Saved "+newitem);            
+            }
         );
     };
 

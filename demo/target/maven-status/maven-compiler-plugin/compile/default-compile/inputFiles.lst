@@ -1,9 +1,9 @@
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Controller/UsersController.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/edu/eci/cosw/spademo/DemoApplication.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Controller/TareasController.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Class/Tareas.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Services/TareasService.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Interface/Interface.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Controller/Curso.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Services/DocumentNotFoundException.java
-/home/local/LABINFO/2087133/Documents/Taller 2 - Espacio Github/COSW-LAB2/demo/src/main/java/Class/Principal.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Services/TareasService.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Controller/TareasController.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Controller/UsersController.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/edu/eci/cosw/spademo/DemoApplication.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Interface/Interface.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Controller/Curso.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Class/Principal.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Services/DocumentNotFoundException.java
+/home/local/LABINFO/2087133/Documents/COSW-LAB2/demo/src/main/java/Class/Tareas.java
